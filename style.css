@@ -1,0 +1,209 @@
+.custom-navbar {
+    background-color: #0007A4; /* Substitua pela cor desejada usando código hexadecimal, RGB, ou nome da cor */
+}
+.form-control {
+    max-width: 500px; /* Ajuste este valor conforme necessário */
+}
+
+section{
+    height:max-content;
+    background-color: black;
+}
+.body{
+    background-color: black;
+}
+
+.navbar-collapse {
+    margin-left: 15%;
+}
+
+.opcoes a{
+    text-align: justify; 
+    color: inherit;      /* A cor do link será a mesma do texto ao redor */
+    text-decoration: none;   /* Remove o sublinhado do link */
+    font-weight: 600;
+    color: white;
+    line-height: 1.2; 
+}
+
+.op {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .op p {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 2px 0;
+  }
+
+.Separador{
+    margin: 10px 5px;
+    height: 40px;
+    background-color:#6075E6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.Computadores{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.filtrar{
+    height: 40px;
+}
+
+.c1 img{
+    max-height: 300px;
+    margin: 20px 40px;
+
+}
+
+.c1 p{
+    color: white;
+}
+.c1 button{
+    background-color: #FF5C5C;
+    color: white;
+}
+
+.c1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.Separador p{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 2px 3px;
+}
+
+.op p a{
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* A cor do link será a mesma do texto ao redor */
+    text-decoration: none;   /* Remove o sublinhado do link */
+    font-weight: 600;
+    color: white;
+}
+
+.opcoes {
+    display: flex;
+    align-items: center;
+}
+.opcoes img {
+    margin-right: 2px;
+}
+
+.login{
+    font-size: small;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .op{
+        height: 50px;
+        background-color: #6075E6;
+    }
+
+    .form-control {
+        min-width: 500px; /* Ajuste este valor conforme necessário */
+    }
+    .pesquisa-telasMenores{
+        display: none;
+    }
+
+    .mobile-menu {
+        color: white;
+        position: absolute;
+        right: 20px;
+        display: none;
+    }
+
+    .options {
+        display: none;
+    }
+
+    .collapse img{
+        margin-left: 5px;
+    }
+
+  }
+  
+/* CSS */
+@media screen and (max-width: 1024px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+
+
+    .mobile-menu {
+        display: block;
+    }
+    
+    
+
+    .opcoes {
+        display: flex; /* Make sure the icons are displayed in a row */
+    }
+
+    .pesquisa-telasMenores{
+        display: block;
+    }
+
+    .minhaConta{
+        display: none;
+    }
+  }
+
+.corpo{
+    background-color: black;
+    height: 100vh;
+}
+
+.mostrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+.mostrar button {
+    padding: 20px 90px;
+    font-size: 24px; 
+    background-color:#0007A4;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  
+  footer p{
+    margin-top: 50px;
+  }
+
+  footer img{
+    margin-bottom: 50px;
+  }
+  
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #6075E6;
+  }
+  

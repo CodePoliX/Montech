@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Montech</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="login.css" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container" id="loginForm">
+        <h2>Login</h2>
+        <form onsubmit="event.preventDefault(); login(this);">
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="Email" name="email">
+            </div>
+            <div class="form-group">
+                <label>Senha</label>
+                <input type="password" class="form-control" placeholder="Senha" name="password">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+        <button class="btn btn-secondary" id="goToRegister">Ir para Cadastro</button>
+    </div>
+    <div class="form-container hide" id="registerForm">
+        <h2>Cadastro</h2>
+        <form onsubmit="event.preventDefault(); register(this);">
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="Email" name="email">
+            </div>
+            <div class="form-group">
+                <label>Senha</label>
+                <input type="password" class="form-control" placeholder="Senha" name="password">
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+        <button class="btn btn-secondary" id="goToLogin">Ir para Login</button>
+    </div>
+    <script src="util.js"></script>
+</body>
