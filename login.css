@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.form-container {
+    position: absolute;
+    width: 300px;
+    transition: opacity 0.3s ease-in-out;
+}
+.hide {
+    opacity: 0;
+    pointer-events: none;
+}
